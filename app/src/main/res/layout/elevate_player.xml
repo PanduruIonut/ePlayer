@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp">
+
+    <!-- Button 1 (Previous) -->
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"/> <!-- Add padding/margin to the top -->
+
+    <!-- Button 2 (Play) -->
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/> <!-- Add padding/margin to the top -->
+
+    <!-- Button 3 (Next) -->
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"/> <!-- Add padding/margin to the top -->
+
+    <!-- Button 4 (Max) -->
+    <Button
+        android:id="@+id/max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max"
+        android:layout_below="@id/previous"
+        android:layout_alignParentEnd="true"
+        />
+</RelativeLayout>
